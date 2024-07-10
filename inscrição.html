@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compartilivros</title>
+    <link rel="shortcut icon" href="imagens/images.ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/javascript.js"></script>
+ </head>
+ <body class="corpo">
+
+  <header id="header">
+    <div class="container">
+      <div class="flex">
+        <div class="logo" > <a href="index.html"><img class="logotipo" src="imagens/livro.png"></a> </div>
+        <div class="titulo"><b>Compartilivros</b></div>
+        <div class="menu">
+          <nav class="menu">
+            <ul> 
+              <li><a href="index.html"><b>Página Inicial</b></a></li>
+              <li><a href="inscrição.html"><b>Inscrição</b></a></li>
+              <li><a href="mapa.html"><b>Onde estamos</b></a></li>                     
+            </ul>
+          </nav>
+        </div>
+      </div> 
+      
+    </div>  
+  </header>
+
+  <section class="inscrição">
+    <div class="tema">
+      <h1>Inscrição Compartilivros</h1>
+    </div>
+      
+    
+  
+  </section>
+
+  <div class="formulario">
+    <form>
+
+      <p>Digite seu nome completo: </p>
+      <input type="text" name="nome" id="" placeholder="Digite aqui seu nome completo"><br>
+      <p>Qual sua idade?</p>
+      <input type="number" name="idade" id="" placeholder="Digite aqui sua idade"><br>
+      <p>Qual a sua data de nascimento? </p>
+      <input type="date" name="nascimento" id="">
+      <p>Qual seu número de telefone?</p>
+      <input type="tel" name="telefone" id="" placeholder="Digite aqui seu número de telefone"><br>
+      <p>Digite seu email:</p>
+      <input type="email" name="email" id="" placeholder="Digite aqui seu email"><br>
+      <p>Qual(is) gênero(s) literário(s) você mais gosta de ler?</p>
+      <input type="text" name="gêneros literários" id="" placeholder="Digite aqui seu(s) gênero(s) favoritos"><br>
+      <p>Qual(is) livro(s) você está disposto(a) a compartilhar?</p>
+      <input type="text" name="livros para compartilhar" id="" placeholder="Digite aqui os livros que deseja compartilhar"><br>
+      <input class="enviar" type="submit" name="enviar" value="Enviar" onclick="msg()">
+     </form>
+     </div>
+
+  </div> 
+ 
+ <script>
+  function msg() {
+    alert("Sua inscrição foi enviada!");
+  }
+ </script>
+
+<footer class="section8">
+  <div class="rodape">
+    <P><b>Criado por Awana Lima</b></P>
+  </div>
+  
+
+</footer>
+
+<script src="js/javascript.js"></script>
+
+<script>window.alert("Antes de iniciar sua inscrição, gostaríamos de te conhecer um pouquinho!")
+  var nome = window.prompt ("Qual seu nome?")
+  var livro = window.prompt (nome + ", qual seu livro favorito?")
+  window.alert("Obrigado por compartilhar conosco, " + nome +"! Boa leitura!")
+  window.alert("É um prazer te conhecer, " + nome + "! Volte sempre!")
+</script>
+
+</body>
+</html>

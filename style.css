@@ -1,0 +1,356 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ 
+
+}
+
+html{
+    height: 500vh;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+    
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    width: 100%;
+    padding: 20px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .35s;
+    
+}
+.logotipo{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
+.menu{
+    font-size: 20px;
+    color: black;
+}
+
+header.rolagem{
+    background-color: white;
+    padding: 20px 4%;
+}
+header.rolagem a, header.rolagem i, header.rolagem.titulo{
+    color: black;
+    
+}
+
+header i{
+    font-size: 10px;
+    color: black;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header ul li a, .titulo{
+    color: solid black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+.banner{
+    height: 100vh;
+    background-image: url(gêneros-de-livros.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner h1{
+    font-size: 4em;
+    color: rgb(132, 4, 128);
+}
+
+.banner h2{
+    font-size: 2em;
+    color: rgb(132, 4, 128);
+}
+
+.divisão{
+
+    background-color: rgb(243, 175, 175);
+    background-size: cover;
+    height: 2vh;
+}
+.banner2{
+    height: 70vh;
+    background-image: url(png-transparent-logo-book-question-creative-books-angle-comic-book-triangle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.75;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.tema{
+    position: relative;
+    top: 200px;
+    font-size: 20px;
+
+}
+
+.section3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px 40px;
+    padding: 40px 40px;
+    background-color: rgb(243, 175, 175);
+}
+
+.topico {
+    background-color: white;
+    line-height: 40px;
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+    text-align: justify;
+    } 
+.section4 {
+    padding: 40px 40px;
+    line-height: 25px;
+    background-color: rgb(243, 175, 175);
+}
+.paragrafo{
+    background-color: white;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 20px 20px 20px 20px;
+    text-align: justify;
+}
+.section5 {
+    background-color: rgb(243, 175, 175);
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+.section6 {
+    padding: 40px 40px;
+    background-color: rgb(243, 175, 175);
+
+}
+
+.beneficios{
+    background-color: white;
+    line-height: 40px;
+    padding: 40px 40px 40px 40px;
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+.section7 {
+    background-color: rgb(243, 175, 175);
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+.section8{
+    padding: 40px 40px;
+    background-color: rgb(243, 175, 175);
+}
+.titulo2 {
+    background-color: white;
+    line-height: 40px;
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.section9 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 40px 40px;
+    padding: 40px 40px;
+    background-color: rgb(243, 175, 175);
+
+}
+
+.membro{
+    background-color: white;
+    line-height: 40px;
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.foto {
+    width: 250px;
+    height: 300px;
+}
+
+.section10{
+    text-align: center;
+
+}
+button{
+    font-size: 30px;
+    background-color: white;
+    text-align: center;
+    width: 200px;
+    height: 70px;
+    border-radius: 10%;
+    border-color: rgb(243, 175, 175);
+    
+
+}
+button:hover {
+    background-color: red;
+    color: white;
+    transform: scale(1.2);
+}
+
+.section11{
+    padding: 0 40px 40px 40px;
+    background-color: rgb(243, 175, 175);
+
+}
+.endereco{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.section12{
+    
+    background-color: rgb(243, 175, 175);
+    padding: 20px 20px 20px 80px;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    column-gap: 30px;
+    
+    
+}
+
+.fachada{
+    margin: 20px 20px 20px 80px;
+    align-content: center;
+}
+
+.foto2{
+    width: 300px;
+    height: 200px;
+    margin-top: 15px ;
+    
+
+}
+.legenda{
+    text-align: center;
+    line-height: 20px;
+    font-size: 18px;
+    background-color: white;
+    margin-top: 5px;
+    padding: 5px;
+   
+    
+}
+.mapa{
+    height: 100%;
+    margin: auto;
+    align-content: center;
+
+}
+.titulo3 {
+    background-color: white;
+    line-height: 40px;
+    padding: 20px 20px 20px 20px;
+    font-size: 30px;
+    text-align: center;
+
+}
+.rodape{
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+    text-align: center;
+
+}
+/* estlido da página "Inscrição" */
+.inscrição{
+    height: 80vh;
+    background-image: url(png-transparent-logo-book-question-creative-books-angle-comic-book-triangle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.formulario{
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align:  center;
+    padding: 40px;
+    line-height: 40px;
+    font-size: 25px;
+    
+}
+
+input{
+ 
+    width: 300px;
+    height: 30px;
+    text-align: center;
+
+}
+
+.enviar{
+    font-size: 20px;
+    background-color: red;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;   
+
+}
+.corpo{
+
+    background-color: rgb(243, 175, 175)
+}
+
+.mapa2{
+    text-align: center;
+}
